@@ -72,7 +72,7 @@ This project helped me improve my:
 I also learned how to convert raw data into meaningful business insights.
 
 ## Project Structure
-```text
+
 HR-Employee-Attrition-Analysis/
 │
 ├── HR_Attrition_SQL_Project.sql
