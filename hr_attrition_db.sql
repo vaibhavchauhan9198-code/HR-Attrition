@@ -1,7 +1,7 @@
 /* ==========================================
    HR EMPLOYEE ATTRITION ANALYSIS PROJECT
    Author: Vaibhav Chauhan
-   Tools Used: MySQL, Power BI
+   Tools Used: MySQL   
 ========================================== */
 
 /* Creating Database */
@@ -84,8 +84,8 @@ ORDER BY total_employees DESC;
 
 /* Insight:
    Research & Development has 961 the highest number of employees,
-   followed by Sales 446 and Human Resources 63.
-*/
+   followed by Sales 446 and Human Resources 63.*/
+
 /* ------------------------------------------------------------
    Query 5: Department-wise Attrition Count
 
@@ -500,13 +500,9 @@ FROM hr_attrition
 GROUP BY department;
 
 /* Insight:
-   Most employees attended 2 or 3 training programs
-   during the last year, with 547 employees attending
-   2 sessions and 491 employees attending 3 sessions.
-   Only 54 employees received no training, suggesting
-   that the organization actively invests in employee
-   learning and skill development.
-*/
+ Sales department recorded the highest average salary,
+followed by Human Resources, while Research & Development had the lowest average salary.*/
+
 /* ------------------------------------------------------------
    Query 23: Employees Earning Above Average Salary
 
@@ -575,9 +571,9 @@ WHERE salary_rank = 1;
 5. Most employees have a moderate work-life balance rating, but a smaller group reports dissatisfaction, which may contribute to attrition.
 6. Managers and Research Directors receive the highest salaries, while several operational roles receive comparatively lower compensation.
 7. Business travel is common among employees, and frequent travel may influence employee retention and job satisfaction.
-8. The workforce is primarily composed of employees from Life Sciences and Medical backgrounds, indicating a strong technical and research-oriented employee base.
+8. The workforce is primarily composed of employees from Life Sciences and Medical backgrounds, indicating a strong
+   technical and research-oriented employee base.
 
----
 
 ## Recommendations
 
@@ -591,7 +587,10 @@ WHERE salary_rank = 1;
 8. Develop a predictive attrition model using machine learning to proactively identify employees at risk of leaving the organization.
 
 ## Conclusion
-The analysis reveals that employee attrition is influenced by multiple factors, including department, job satisfaction, compensation, work-life balance, and career growth opportunities. By implementing targeted retention strategies and continuously monitoring employee engagement, the organization can reduce attrition, improve workforce stability, and enhance overall business performance.
+The analysis reveals that employee attrition is influenced by multiple factors, including department, 
+job satisfaction, compensation, work-life balance, and career growth opportunities.
+By implementing targeted retention strategies and continuously monitoring employee engagement,
+the organization can reduce attrition, improve workforce stability, and enhance overall business performance.
 /*
 
 
